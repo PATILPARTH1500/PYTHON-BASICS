@@ -241,23 +241,23 @@
 
 # Type Conversion in Pyhton and Type Casting
 
-a = 1
-b = 2.0
-print(a+b) #3.0
-print(type(a+b)) #<class 'float'>
-#Python will convert int to float automatically because floar has more precision than int.
-#---------------------------------------------------------------------------------------------------------------------------------------------
+# a = 1
+# b = 2.0
+# print(a+b) #3.0
+# print(type(a+b)) #<class 'float'>
+# #Python will convert int to float automatically because floar has more precision than int.
+# #---------------------------------------------------------------------------------------------------------------------------------------------
 
-w = "1"
-x = 2   
-print(w+x) #Error
-#Python will not convert string to int automatically.
-#---------------------------------------------------------------------------------------------------------------------------------------------
+# w = "1"
+# x = 2   
+# print(w+x) #Error
+# #Python will not convert string to int automatically.
+# #---------------------------------------------------------------------------------------------------------------------------------------------
 
-c = float("1")
-d = 2
-print(c+d) #3.0
-print(type(c+d)) #<class 'float'>
+# c = float("1")
+# d = 2
+# print(c+d) #3.0
+# print(type(c+d)) #<class 'float'>
 #Type casting is done by the user.
 #---------------------------------------------------------------------------------------------------------------------------------------------
 
