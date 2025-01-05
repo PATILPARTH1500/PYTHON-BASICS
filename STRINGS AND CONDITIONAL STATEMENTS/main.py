@@ -77,3 +77,5 @@ print(str.find("coder")) # Output: 7
 
 #count() function
 print(str.count("m")) # Output: 1
+
+#
