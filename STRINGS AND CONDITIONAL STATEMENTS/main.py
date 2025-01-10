@@ -58,24 +58,24 @@
 #String Functions
 str = " I am a coder"
 
-#endswith() function
-print(str.endswith("coder")) # Output: True
-print(str.endswith("I")) # Output: False
+# #endswith() function
+# print(str.endswith("coder")) # Output: True
+# print(str.endswith("I")) # Output: False
 
-#startswith() function
-print(str.startswith(" I")) # Output: True
-print(str.startswith("i")) # Output: False
+# #startswith() function
+# print(str.startswith(" I")) # Output: True
+# print(str.startswith("i")) # Output: False
 
-#capitalize() function
-print(str.capitalize()) # Output:  i am a coder
+# #capitalize() function
+# print(str.capitalize()) # Output:  i am a coder
 
-#replace() function
-print(str.replace("coder", "programmer")) # Output: I am a programmer
+# #replace() function
+# print(str.replace("coder", "programmer")) # Output: I am a programmer
 
-#find() function
-print(str.find("coder")) # Output: 7
+# #find() function
+# print(str.find("coder")) # Output: 7
 
-#count() function
-print(str.count("m")) # Output: 1
-
+# #count() function
+# print(str.count("m")) # Output: 1
+# print(str.count("d"))  #Output: 1
 
