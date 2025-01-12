@@ -19,3 +19,16 @@
 # print(str)
 #-----------------------------------------------------------------------------------------------------------------------------------------
 
+#List Methods
+list = [1, 2, 3, 4, 5 ]
+
+#Append methods it just add the element to the end of the list
+list.append(6) #Output [1, 2, 3, 4, 5, 6]
+print(list)
+
+#Sort methods it just sort the element in numeric wise & aplhabetical order
+list.sort()
+print(list) #Output [1, 2, 3, 4, 5, 6]
+
+list.sort(reverse=True)
+print(list) #Output [6, 5, 4, 3, 2, 1]p
