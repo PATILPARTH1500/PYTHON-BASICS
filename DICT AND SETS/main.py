@@ -22,14 +22,17 @@
 #-----------------------------------------------------------------------------------------------------------------------------------------
 
 # Nested Dictionary 
-
 info = {
-    "name" : "Parth Patil",
-    "marks" : {
-        "Chem" : 30,
-        "Phy"  : 30,
-        "maths" : 80,}
-    "age" : 18,
-    "is_passed" : True,
+    "name": "Parth Patil",
+    "marks": {
+        "Chem": 93,
+        "Phy": 93,
+        "Maths": 93,
+    },
+    "Age": 18
 }
-print(info)
+print(info) #Output {'name': 'Parth Patil', 'marks': {'Chem': 93, 'Phy': 93, 'Maths': 93}, 'Age': 18}
+print(info["name"]) #Output Parth Patil
+print(info["marks"]["Chem"]) #Output 93
+#-----------------------------------------------------------------------------------------------------------------------------------------
+
