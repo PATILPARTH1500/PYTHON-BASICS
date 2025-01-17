@@ -140,6 +140,8 @@
 #     "cat" : "a small animal"
 # }
 # print(quiz)
+#--------------------------------------------------------------------------------------------------------------------------------------------
+
 
 #Write a python program you are given a list for students. Assume one classroom is requried for 1 subjects How many classrooms are needed 
 # all students
@@ -147,3 +149,22 @@
 # subjects = {"python", "java", "C++", "python", "javascript", "java", "python", "java", "C++", "C" }
 # print(len(subjects))
 # ans is 5
+#--------------------------------------------------------------------------------------------------------------------------------------------
+
+#Write a python program to enter the marks of 3 subjects from the user and store them in a dictionary . Start with an empty dictonary and
+#add one by one . use subject as name as key and marks as values
+
+# sub = {}
+
+# x = int(input("enter the marks of the maths: "))
+# sub.update({"Maths" : x})
+
+# y = int(input("enter the marks of the chemistry: "))
+# sub.update({"Chem": y})
+
+# z = int(input("enter the marks of the maths: "))
+# sub.update({"Phy" : z})
+
+# print(sub)
+#--------------------------------------------------------------------------------------------------------------------------------------------
+
