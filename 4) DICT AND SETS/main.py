@@ -65,7 +65,7 @@
 
 # #Get Method
 # print(info.get("name")) #Output Parth Patil
-# print(info.get("name2")) #Output None this method does not gives error only show none while print(info["name"]) will give error
+# print(info.get("name2")) #Output None this method does not gives error only show none while print(info["name2"]) will give error
 
 # #Update Method
 # info.update({"city" : "Turbhe"})

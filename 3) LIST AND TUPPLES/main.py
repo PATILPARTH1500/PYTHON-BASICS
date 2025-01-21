@@ -97,7 +97,7 @@
 
 #-----------------------------------------------------------------------------------------------------------------------------------------
 
-#Write a programme to count the number of students with the "A" grafe in the following typr
+#Write a programme to count the number of students with the "A" grade in the following typr
 # ["C", "D", "A", "A", "B", "B", "A"]
 
 # grade = ["C", "D", "A", "A", "B", "B", "A"]
